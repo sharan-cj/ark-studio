@@ -59,6 +59,10 @@ a:link {
 
 }
 
+.cta:hover {
+    background-color: #ebf99d;
+}
+
 #cta_link {
     background-color: #1bcee0;
     color: white;
@@ -79,7 +83,7 @@ a:link {
     
 }
 
-.services_wrapper {
+.services {
     margin: 40px 0px;
     color: #4a4949;
     font-family: 'Raleway', cursive, Arial, Helvetica, sans-serif;
@@ -98,23 +102,23 @@ a:link {
     justify-content: center;
 }
 
-.services_wrapper ul {
+.services ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     padding: 0px;
 }
-.services_wrapper ul li {
+.services ul li {
     display: grid;
     justify-items: center;
     width: 25%;
 }
-.services_wrapper ul li p {
+.services ul li p {
     display: flex;
     flex-flow: column;
     text-align: center;
 }
-.services_wrapper ul li p strong {
+.services ul li p strong {
     font-size: x-large;
 }
 
@@ -131,38 +135,37 @@ a:link {
     transform: scale(1.2);
 }
 
-.testimonials  {
+.testimonials {
     color:#4a4949;
     font-family: 'Raleway', cursive, Arial, Helvetica, sans-serif;
     margin: 60px 0px;
 }
 
-.testimonials_wrapper h2 {
+.testimonials h2 {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     margin: 30px 0px;
 }
 
-.testimonials_wrapper ul {
+.testimonials ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     padding: 0px;
 }
-.testimonials_wrapper ul li {
+.testimonials ul li {
     display: grid;
     justify-items: center;
     width: 25% ;
-    text-align: center;
-    
+    text-align: center;   
 }
 
-.testimonials_wrapper ul li img {
+.testimonials ul li img {
     border-radius: 50%;
 }
 
-.testimonials_wrapper ul li div {
+.testimonials ul li div {
     margin-top: 20px;
 }
 .brand {
@@ -208,26 +211,26 @@ a:link {
     color: white;
 }
 
-footer-widget {
+.footer_widget {
     display: flex;
     justify-content: space-around;
     font-family: 'Raleway', cursive, Arial, Helvetica, sans-serif;
 }
 
-footer-widget div{
+.footer_widget div {
     width: 10%;
     display: grid;
     margin-bottom: auto;
     
 }
 
-#comp_list ul {
+#company_list ul {
     list-style-type: none;
     color: white;
     padding: 0px;
 }
 
-#comp_list ul li a {
+#company_list ul li a {
     color: white;
 }
 
